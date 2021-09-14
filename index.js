@@ -56,7 +56,7 @@ const server = http.createServer((req, res) => {
   else {
     res.writeHead(404, {
       "Content-type": "text/html",
-      "my-own-header": "SHALOM GOYI",
+      "my-own-header": "Hello World",
     });
     res.end("<h1>This page cannot be found</h1>");
   }
